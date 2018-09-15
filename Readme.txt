@@ -26,3 +26,5 @@ UPDATES:
   Bethrezen: file created!
 
   Bethrezen: ну что, народ, файл редактируетс€, - лаба выполн€етс€!
+
+  MaxPrimeAERY: Hello! Just check this stupid thing
