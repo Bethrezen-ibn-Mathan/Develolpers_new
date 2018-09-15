@@ -24,3 +24,5 @@ ITS INTERESTING! you can substitute these commands with $ git checkout -b branch
 UPDATES:
   
   Bethrezen: file created!
+
+  Bethrezen: ну что, народ, файл редактируетс€, - лаба выполн€етс€!
