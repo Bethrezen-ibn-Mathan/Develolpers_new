@@ -38,5 +38,33 @@
   --decorate - показывает, куда указывает HEAD
   Полезная комманда: git log --oneline --decorate --graph --all
 
-  
-
+13) Перебазирование: git rebase <name>  
+	или 	git rebase <target> <name>
+  Делает коммиты ветки "name" базирующимися на последнем коммите данной (или "target", во 2м примере)
+  К примеру: 
+  Было: 
+  *	C4 < master
+  |
+  *	C3
+  | *	  C6 < name
+  * | 	C2
+  | * 	  C5
+  |/
+  *	C1
+  |
+  *	C0
+  Выполнили: git rebase master name
+  Стало: 
+  *	  C6' < name
+  |
+  *	  C5'
+  |
+  *	C4 < master
+  |
+  *	C3
+  |
+  *	C2
+  |
+  *	C1
+  |
+  *	C0
