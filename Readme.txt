@@ -31,3 +31,4 @@ UPDATES:
 
   DimonWW: Hello! I agree
 
+  Bethrezen: try to do removed commit & reversive commits order in history
