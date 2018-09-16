@@ -1,1 +1,1 @@
-merge option
+The merge option
