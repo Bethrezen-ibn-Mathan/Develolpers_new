@@ -32,3 +32,10 @@ UPDATES:
   DimonWW: Hello! I agree
 
   Bethrezen: try to do removed commit & reversive commits order in history
+
+  Bethrezen: I cant remove merge commit. 
+    	Try to use "rebase" in local machine with new branch "tryRebase" 
+	and create "time paradox" in commit history.
+
+  P.S. you can try to remove merge commit on your machines use your own files. 
+	Now I try to edit "Deleteme.txt" and remove own edits without branches.
