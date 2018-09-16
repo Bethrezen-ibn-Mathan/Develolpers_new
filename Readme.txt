@@ -39,3 +39,6 @@ UPDATES:
 
   P.S. you can try to remove merge commit on your machines use your own files. 
 	Now I try to edit "Deleteme.txt" and remove own edits without branches.
+
+  P.P.S. fail. Command "revert" doesnt working on my local machine.
+ 	say that swap-file using in other program and cant be used.
