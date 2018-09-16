@@ -42,3 +42,6 @@ UPDATES:
 
   P.P.S. fail. Command "revert" doesnt working on my local machine.
  	say that swap-file using in other program and cant be used.
+
+  Bethrezen: rebase tested, "time paradox" created, look commits history. You task, - try to undo 
+	a merge commit on your local machines and repair it after undoing. Read the labwork's task.
