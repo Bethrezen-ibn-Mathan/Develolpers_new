@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 The merge option!
 And Redase the best!
+=======
+merge option
+>>>>>>> parent of e0e6f5a... merge file
