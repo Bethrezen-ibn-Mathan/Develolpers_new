@@ -2,3 +2,4 @@ somechanges
 for the Emperor!
 focus-pokus!
 focus-pokus #2!change
+--force test
