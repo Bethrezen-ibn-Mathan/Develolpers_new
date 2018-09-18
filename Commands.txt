@@ -3,10 +3,11 @@
 1) Выбор рабочей директории: cd /e/GitHub/Develolpers_new
 
 2) Добавление в индекс всех данных в репозитории: git add .
+
 3) Создание коммита: git commit -m "<comment>"
   -а позволяет одной командой проиндексировать всё и сделать коммит
   Пример комманды: git commit -a -m "<comment>"
-  --ammend позволяет откатиться к состоянию, которое описывается последним(? забыл...) коммитом
+  --amend позволяет добавить изменения к уже сделанному коммиту
 
 4) Отмена коммита: git revert HEAD
   HEAD отменяет последний коммит в текущей ветке
@@ -16,7 +17,9 @@
 
 6) Отправка своих изменений ветки master на GitHub: git push -u https://github.com/Bethrezen-ibn-Mathan/Develolpers_new master
 
-7) Копирование только измененных файлов: git fetch 
+7) Копирование только измененных файлов с сервера: 
+		git fetch https://github.com/Bethrezen-ibn-Mathan/Develolpers_new
+		git pull https://github.com/Bethrezen-ibn-Mathan/Develolpers_new
 
 8) Создание новой ветки: git branch <name>
   -d удаляет ветку
@@ -33,7 +36,7 @@
   -s - сокращает кол-во информации
 
 12) Просмотр коммитов: git log
-  --graph 
+  --graph - выводит историю коммитов в виде графа
   --<N> - показывает несколько последних коммитов
   --decorate - показывает, куда указывает HEAD
   Полезная комманда: git log --oneline --decorate --graph --all
